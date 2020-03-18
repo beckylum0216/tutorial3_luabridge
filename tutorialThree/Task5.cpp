@@ -7,7 +7,6 @@ Task5::Task5(){
 }
 
 
-
 double Task5::Multiply(double x, double y, double z) {
 
     return x * y * z;

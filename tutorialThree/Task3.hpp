@@ -1,10 +1,10 @@
 
 #pragma once
 
-extern "C"{
-#include <lua.h>
-#include <lauxlib.h>
-#include <lualib.h>
+extern "C" {
+#include "lua/lauxlib.h"
+#include "lua/lua.h"
+#include "lua/lualib.h"
 }
 
 #include <LuaBridge/LuaBridge.h>

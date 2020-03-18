@@ -5,7 +5,7 @@ void Task2::RunLua() {
     lua_State *L = luaL_newstate();
 
     luaL_openlibs(L);
-    if (luaL_loadfile(L, "../lua/intro.lua") || lua_pcall(L, 0, 0, 0)) {
+    if (luaL_loadfile(L, "../lua/task2.lua") || lua_pcall(L, 0, 0, 0)) {
         std::cout << "file not loaded" << std::endl;
     }
 

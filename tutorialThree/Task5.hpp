@@ -1,7 +1,6 @@
-
 #pragma once
 
-#include <lua.hpp>
+#include <lua/lua.hpp>
 #include <LuaBridge/LuaBridge.h>
 
 class Task5 {

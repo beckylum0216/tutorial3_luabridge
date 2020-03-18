@@ -3,7 +3,10 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
+SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/tutorialThree")
 set(luabridge_DIR "${CMAKE_SOURCE_DIR}/includes")
+set(LUA_LIBRARIES "${CMAKE_SOURCE_DIR}/libs/lua")
+set(LUA_INCLUDE_DIR "${CMAKE_SOURCE}/includes")
 
 MESSAGE(STATUS ${CMAKE_SOURCE_DIR})
 
